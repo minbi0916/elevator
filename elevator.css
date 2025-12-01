@@ -1,0 +1,203 @@
+* {/*padding: 0;
+margin: 0;*/
+box-sizing: border-box;
+}
+
+.home {
+	height: 100vh;
+	background-image: url('image/home_horizonal.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+.foothome {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	word-break: keep-all;
+}
+
+.floor {
+	text-align: center;
+	word-break: keep-all;
+	padding: 25%;
+	margin: 0;
+}
+
+.title {
+	text-align: center;
+	padding: 40px;
+	color: white;
+}
+
+.onef {
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	background-color: transparent;
+	right: 60%;
+	top: 560px;
+}
+
+.onef:hover {
+	/*background-image: url('image/');*/
+	background-color: orangered;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twof {
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	background-color: transparent;
+	right: 50.2%;
+	top: 560px;
+}
+
+.twof:hover {
+	/*background-image: url('image/');*/
+	background-color: orangered;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.threef {
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	background-color: transparent;
+	right: 40.4%;
+	top: 560px;
+}
+
+.threef:hover {
+	/*background-image: url('image/');*/
+	background-color: orangered;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourf {
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	background-color: transparent;
+	right: 30.5%;
+	top: 560px;
+}
+
+.fourf:hover {
+	/*background-image: url('image/');*/
+	background-color: orangered;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fivef {
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	background-color: transparent;
+	right: 20.5%;
+	top: 560px;
+}
+
+.fivef:hover {
+	/*background-image: url('image/');*/
+	background-color: orangered;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+	.home {
+		background-image: url('image/home_vertical.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+	}
+
+	.floor {
+		text-align: center;
+		word-break: keep-all;
+		padding: 10%;
+		margin: 0;
+	}
+
+	.title {
+		padding: 0;
+		margin: 0;
+	}
+
+	.onef {
+		position: absolute;
+		width: 110px;
+		height: 80px;
+		background-color: transparent;
+		right: 40%;
+		top: 510px;
+	}
+
+	.twof {
+		position: absolute;
+		width: 110px;
+		height: 80px;
+		background-color: transparent;
+		right: 40%;
+		top: 400px;
+	}
+
+	.threef {
+		position: absolute;
+		width: 110px;
+		height: 80px;
+		background-color: transparent;
+		right: 40%;
+		top: 290px;
+	}
+
+	.fourf {
+		position: absolute;
+		width: 110px;
+		height: 80px;
+		background-color: transparent;
+		right: 40%;
+		top: 190px;
+	}
+
+	.fivef {
+		position: absolute;
+		width: 110px;
+		height: 80px;
+		background-color: transparent;
+		right: 40%;
+		top: 82px;
+	}
+}
